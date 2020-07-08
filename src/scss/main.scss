@@ -2,12 +2,92 @@
 
 @import "_variables";
 @import "modules/hello.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600;700&display=swap');
 body {
-  background: $wtf;
+  background: $main-color;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: relative;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+  
+}
+.title {
+  position: absolute;
+width: 561px;
+height: 69px;
+left: 257px;
+top: 90px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 64px;
+color: #FFFFFF;
+}
+.subtitle {
+  position: absolute;
+  width: 306px;
+  height: 38px;
+  left: 254px;
+  top: 180px;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.textarea {
+  position: absolute;
+width: 447px;
+height: 170px;
+left: 257px;
+top: 300px;
+}
+::placeholder {
+position: absolute;
+left: 16px;
+right: 16px;
+top: 16px;
+bottom: 16px;
+
+}
+.button__load {
+display: flex;
+flex-direction: column;
+padding: 0px;
+position: absolute;
+width: 90px;
+height: 40px;
+left: 490px;
+top: 532px;
+}
+.button__text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+
+flex: none;
+order: 1;
+align-self: center;
+margin: 10px 4px;
+
+}
+.button__save {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: absolute;
+  width: 86px;
+  height: 40px;
+  left: 618px;
+  top: 532px;
+  
 }
