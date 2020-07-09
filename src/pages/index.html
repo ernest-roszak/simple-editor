@@ -20,10 +20,20 @@
    
   </head>
   <body>
-    <h1 class="title">MY SIMLPE EDITOR</h1>
-    <h2 class="subtitle">Put your sentence</h2>
-    <textarea class="textarea entry--js" placeholder="Write something..." name="tekstarea" id="textarea" cols="30" rows="10"></textarea>
-    <button class="button__load button__load--js"><span class="button__text">LOAD</span></button>
-    <button class="button__save button__save--js"><span class="button__text">SAVE</span></button>
+    <main class="editor">
+    <h1 class="editor__title">MY SIMLPE EDITOR</h1>
+    <h2 class="edotor__subtitle">Put your sentence</h2>
+    <form class="form">
+    <textarea class="form__textarea entry--js" placeholder="Write your sentence..." aria-label="Write your sentence" name="tekstarea" id="textarea"></textarea>
+    <div class="form__buttons">
+    <button class="button clear--js">CLEAR</button>
+    <button class="button load--js">LOAD<span class="info--js"><span></button>
+    <button class="button button--save save--js">SAVE</button>
+    </div>
+    <div>
+    <span class="warning warning--js"></span>
+  </div>
+  </form>
+  </main>
   </body>
 </html>
