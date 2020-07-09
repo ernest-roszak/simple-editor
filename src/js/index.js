@@ -45,7 +45,6 @@ clear.addEventListener("click", (e) => {
   document.querySelector('.warning--js').innerHTML = "";
 });
 
-console.log(myValue);
 const warning = document.querySelector('.warning--js')
 content.addEventListener("input", (e) => {
     e.preventDefault();
